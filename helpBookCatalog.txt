@@ -1,0 +1,20 @@
+**********HelpBookCatalog availble**********
+This text file include all the description to use this BookSearchProject
+language used to deveoped code _ javascript and node 
+language to operate :: english
+Objective :: To manage library like System using -add , -show ,-delete , -update tag 
+Format to used code through TERMINAL ::
+node *.js operatedFile.txt input_tag (... ... ... ...)
+-add tag Show add info in file , you should enter all the information in terminal to add otherwise it will show error :
+*****format to used -add
+ node bookcatalog.js test.txt -add 12896(Isbn number) 850(Price) MANISH(Author_name) LIFE(title_name) PAPERBACK(publisher) 4990(pages)
+*****format to used -show
+node bookcatalog.js test.txt -show
+*****format to used -delete
+ node bookcatalog.js test.txt -delete 12896(Isbn number)
+*****format to used -update
+ node bookcatalog.js test.txt -update 12896(Isbn number) -input_tag_name updated_value
+node bookcatalog.js test.txt -update 78945 -price 933
+
+***** Other Format Rather Than Using Which Is Mentioned will Show Required Error*****
+
